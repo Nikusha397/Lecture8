@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(210, 206, 206);
+}
+
+.main_container {
+  width: 1160px;
+  height: 528px;
+  display: flex;
+  gap: 30px;
+}
+
+.box_1 {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  position: relative;
+  background-color: white;
+}
+
+.images {
+  width: 360px;
+  height: 216px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  position: relative;
+}
+
+.icon_box {
+  width: 57px;
+  height: 24px;
+}
+
+.groupicon {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  left: 304px;
+  top: 16px;
+  width: 30px;
+  height: 30px;
+}
+
+.fireicon {
+  background-color: red;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 250px;
+  left: 279px;
+}
+
+.wheat {
+  border-radius: 50%;
+  background-color: yellow;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 250px;
+  left: 312px;
+}
+
+.leaficon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 250px;
+  left: 246px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+h3 {
+  width: 198px;
+  height: 25px;
+  position: absolute;
+  top: 248px;
+  left: 24px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.p1 {
+  width: 312px;
+  height: 75px;
+  position: absolute;
+  top: 310px;
+  left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6e798c;
+}
+
+.calories {
+  width: 312px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 400px;
+  left: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #a5adbb;
+}
+
+.saleprice {
+  width: 88px;
+  height: 25px;
+  position: absolute;
+  top: 462px;
+  left: 24px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #081f32;
+}
+
+.mainprice {
+  width: 73px;
+  height: 25px;
+  position: absolute;
+  top: 462px;
+  left: 120px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #f8593b;
+  text-decoration: line-through;
+}
+
+button {
+  width: 114px;
+  height: 44px;
+  position: absolute;
+  top: 454px;
+  left: 222px;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+}
+
+.box_2 {
+  width: 360px;
+  height: 528px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.box_3 {
+  width: 360px;
+  height: 528px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
