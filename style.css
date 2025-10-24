@@ -39,44 +39,76 @@ body {
   height: 24px;
 }
 
-.groupicon {
+.groupbox {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   border-radius: 50%;
   left: 304px;
   top: 16px;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 }
 
-.fireicon {
-  background-color: red;
-  border-radius: 50%;
+.groupicon {
+  width: 7.95px;
+  height: 18px;
+}
+
+.firebox {
   width: 24px;
   height: 24px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 250px;
   left: 279px;
 }
 
-.wheat {
-  border-radius: 50%;
-  background-color: yellow;
+.fireicon {
+  width: 10.5px;
+  height: 14px;
+}
+
+.wheatbox {
   width: 24px;
   height: 24px;
+  background-color: #ffc22b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 250px;
   left: 312px;
 }
 
-.leaficon {
+.wheat {
+  width: 14px;
+  height: 14px;
+}
+
+.leafbox {
   width: 24px;
   height: 24px;
+  background-color: green;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 250px;
   left: 246px;
-  background-color: green;
-  border-radius: 50%;
+}
+
+.leaficon {
+  width: 14px;
+  height: 14px;
 }
 
 h3 {
